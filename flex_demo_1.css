@@ -1,0 +1,129 @@
+* {
+	margin: 0px;
+	padding: 0;
+	box-sizing: border-box;
+    /* border: 1px solid yellow; */
+}
+
+.menu-container {
+	color: #fff;
+	background-color: black;
+	/* Blue */
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+}
+
+.menu {
+	border: 2px solid #fff;
+	/* For debugging */
+	width: 1200px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0px;
+	
+}
+
+.links {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.login {
+	margin-left: 50px;
+	justify-content: end;
+	margin-right: 50px;
+}
+
+.signup {
+	margin-left: auto ;
+}
+
+.social,
+.subscribe {
+	align-self: flex-end;
+	margin-bottom: 20px;
+}
+
+
+.header-container {
+	color: black;
+	display: flex;
+	background-color: lightcyan;
+	justify-content: center;  /* to center horizontally, try changing the value to start or end */
+
+}
+
+.header {
+	width: 800px;
+	height: 300px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.photo-grid-container {
+	display: flex;
+	justify-content: center;
+}
+
+.photo-grid {
+	width: 1000px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+}
+
+.photo-grid-item {
+	border: 1px solid darkcyan;
+	width: 300px;
+	height: 300px;
+
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-item {
+	border: 1px solid black;
+	background-color: rgb(222, 201, 217);
+	height: 200px;
+	flex: 1;
+}
+
+.footer-one,
+.footer-three {
+	flex: initial;
+	background-color: black;
+	width: 300px;
+}
+
+.footer-two {
+	background-color: wheat;
+	justify-content: center;
+	align-items: center;
+	margin-top: auto;
+}
+
+.footer-two.footer-item {
+	font-size: 35px;	
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+	height: 70px;
+	
+}
+
+.footer-item.footer-one {
+	height: 70px;
+}
+
+.footer-three {
+	height: 70px;
+}
